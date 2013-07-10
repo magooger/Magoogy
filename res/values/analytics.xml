@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+  <!--Replace placeholder ID with your tracking ID-->
+  <string name="ga_trackingId">UA-41636205-1</string>
+  
+   <!-- Enable Activity tracking -->
+   <bool name="ga_autoActivityTracking">true</bool>
+ 
+   <!-- Enable debug -->
+   <bool name="ga_debug">false</bool>
+ 
+   <!-- The screen names that will appear in your reporting -->
+   <string name="com.cit312.clientlegacybooks.MainActivity">MainActivity</string>
+   <string name="com.cit312.clientlegacybooks.ReadBook">ReadBook</string>
+ 
+   <!--
+   The inverval of time after all the collected data
+   should be sent to the server, in seconds.
+   -->
+	<integer name="ga_dispatchPeriod">1</integer>
+ 
+</resources>

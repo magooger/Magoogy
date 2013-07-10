@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:layout_above="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.83" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/joke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/back"
+        android:layout_toRightOf="@+id/back"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:text="Bored?...Learn About Bro Barney\nCLICK HERE!" />
+
+</RelativeLayout>
